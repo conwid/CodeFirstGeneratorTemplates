@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity.Migrations.Design;
 $if$ ($targetframeworkversion$ >= 3.5)using System.Linq;
 $endif$using System.Text;
 

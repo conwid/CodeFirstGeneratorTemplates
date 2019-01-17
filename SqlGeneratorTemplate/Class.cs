@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity.SqlServer;
 $if$ ($targetframeworkversion$ >= 3.5)using System.Linq;
 $endif$using System.Text;
-using System.Data.Entity.SqlServer;
 
 namespace $rootnamespace$
 {
@@ -11,7 +11,7 @@ namespace $rootnamespace$
     
     // Override the methods to add custom generation steps to a specific model element
     // see https://github.com/aspnet/EntityFramework6/blob/master/src/EntityFramework.SqlServer/SqlServerMigrationSqlGenerator.cs 
-    internal class $safeitemrootname$ : SqlServerMigrationGenerator
+    internal class $safeitemrootname$ : SqlServerMigrationSqlGenerator
 	{
 	}
 }
