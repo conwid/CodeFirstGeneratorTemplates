@@ -4,13 +4,15 @@ A not very-well known, but very useful feature of Entity Framework Code First is
 
 I have used custom generators in some of my projects as well, but since this is not a very well known and widely used feature, finding the corresponding documentation takes some time :) So I thought I would create a Visual Studio extension that has an item template for a custom sql generator and a custom C# code generator.
 
-[After downloading the extension from the marketplace](), you have the option to add a "Custom migration code generator" to the project:
+[After downloading the extension from the marketplace](), you have the option to add a "Custom migration code generator" or a "Custom migration sql generator" to the project:
 
-This adds a nice little class with the required boilerplate and some comments to help you get started:
+![](https://dotnetfalconcontent.blob.core.windows.net/entity-framework-code-first-generator-templates/addnewitems.png)
 
-You can also add a "Custom migration sql generator" to the project:
+The generator items add nice little classes with the required boilerplate and some comments to help you get started:
 
-Again, this adds a class with the required boilerplate and some comments:
+![](https://dotnetfalconcontent.blob.core.windows.net/entity-framework-code-first-generator-templates/codegenerator.png)
+
+![](https://dotnetfalconcontent.blob.core.windows.net/entity-framework-code-first-generator-templates/sqlgenerator.png)
 
 ## Contribution
 
